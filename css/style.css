@@ -1,0 +1,868 @@
+/* 清楚默认格式 */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* 清除浮动 */
+.clear {
+    clear: both;
+}
+
+/* 头部导航栏 */
+header {
+    height: 110px;
+    position: relative;
+    z-index: 99;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.heard {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.heard_left {
+    float: left;
+    height: 110px;
+}
+
+.logo {
+    float: left;
+    width: 140px;
+    margin-right: 30px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.heard_right {
+    float: right;
+    line-height: 110px;
+}
+
+.heard_right a {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.heard_right a:hover {
+    text-decoration: underline;
+    color: #FF3030;
+}
+
+
+.heard_right input {
+    width: 160px;
+    height: 40px;
+    background: #F5F5F5;
+    border: 0px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+
+.heard_right input::placeholder {
+    color: #999E9C;
+}
+
+nav {
+    float: left;
+    height: 100%;
+}
+
+.rop-down-menu {
+    display: inline-block;
+}
+
+nav ul>li {
+    float: left;
+    height: 110px;
+    line-height: 110px;
+    margin-right: 30px;
+
+}
+
+nav ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+nav ul>li>a:hover {
+    color: #FF3030;
+    text-decoration: underline;
+}
+
+
+.drop-down-menu {
+    width: 64px;
+}
+
+.drop-down-menu>a {
+    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.drop-down-menu:hover>a {
+    color: #FF3030;
+    text-decoration: underline;
+}
+
+.drop-box {
+    display: none;
+}
+
+.rop-down-menu-box:hover .drop-box {
+    display: block;
+    border-top: 4px solid #FF3030;
+    position: relative;
+    top: -10px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    line-height: 30px;
+}
+
+.drop-box a {
+    display: block;
+    color: #878787;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.drop-box a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* banner栏目 */
+#banner {
+    position: relative;
+    height: 540px;
+    margin: 0 auto;
+    background: url(../images/banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* 设置最小宽度为 1100px */
+}
+
+.little_box {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.banner_text {
+    width: 700px;
+    color: #fff;
+    float: left;
+    margin-left: 145px;
+    margin-top: 145px;
+}
+
+.banner_text p {
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.index_more {
+    width: 126px;
+    height: 40px;
+
+}
+
+.index_more a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    letter-spacing: 4px;
+    background-color: #FF3030;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.index-img {
+    float: right;
+    width: 200px;
+    margin-right: 150px;
+    margin-top: 100px;
+    cursor: pointer;
+    /* 添加过渡效果，实现平滑的动画 */
+}
+
+.index-img img {
+    width: 100%;
+}
+
+
+/* <!-- 壁画专题 --> */
+#Mural_Special_Topic {
+    position: relative;
+    width: 100%;
+    padding: 50px 0px;
+    background: url(../images/bg1.png);
+}
+
+.bg2 {
+    top: 0px;
+    width: 300px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bg2 img {
+    width: 300px;
+}
+
+.Mural_Special_Topic_box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.h2 {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+.h2 h2 {
+    font-size: 40px;
+}
+
+.h2 p {
+    color: #878787;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.Mural_Special_list {
+    margin-top: 30px;
+}
+
+.Mural_Special_list li {
+    display: inline-block;
+    width: 226px;
+    margin: 15px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.Mural_Special_list li img {
+    width: 100%;
+}
+
+.Mural_Special_list li h3 {
+    font-size: 26px;
+    line-height: 40px;
+    margin: 10px 0px;
+}
+
+.Mural_Special_list_txt {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 14px;
+    color: #999;
+    line-height: 26px;
+}
+
+.Mural_Special_list_number {
+    font-size: 14px;
+    color: #cdcdcd;
+    margin-top: 10px;
+}
+
+.Mural_Special_list_number span {
+    color: #bf4800;
+}
+
+/* <!-- 文献 --> */
+#literature {
+    width: 100%;
+    background: url(../images/wenxian.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+#literature .h2 {
+    color: #fff;
+}
+
+#literature_box {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.literature_box_left {
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.literature_box_left ul {
+    margin-top: 40px;
+}
+
+.literature_box_left ul li {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #B9B6B4;
+    cursor: pointer;
+}
+
+.literature_box_left ul li:hover {
+    color: #fff;
+}
+
+.literature_box_right {
+    width: 590px;
+    float: right;
+    top: 0px;
+}
+
+.literature_box_right img {
+    width: 100%;
+}
+
+/* <!-- 共创作品 --> */
+
+#Co_create_works {
+    width: 100%;
+    padding: 50px 0px;
+    background: url(../images/bg3.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Co_create_works_box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Co_create_works_box li {
+    width: 296px;
+    display: inline-block;
+    margin: 30px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+.works_box_img {
+    width: 100%;
+    height: 296px;
+    overflow: hidden;
+    /* 隐藏超出容器的部分 */
+    text-align: center;
+    /* 图片水平居中 */
+    position: relative;
+}
+
+
+
+.Co_create_works_box li:nth-child(1) .works_box_img {
+    background: url(../images/create1.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Co_create_works_box li:nth-child(2) .works_box_img {
+    background: url(../images/create2.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Co_create_works_box li:nth-child(3) .works_box_img {
+    background: url(../images/create3.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Co_create_works_box h3 {
+    font-size: 26px;
+    line-height: 40px;
+    margin: 10px 0px;
+}
+
+.Co_create_works_box li {
+    cursor: pointer;
+}
+
+
+.works_box_txt {
+    height: 78px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 14px;
+    color: #999;
+    line-height: 26px;
+}
+
+/* 底部版权信息 */
+footer {
+    position: relative;
+    background-color: #000;
+    padding: 60px 0px;
+}
+
+#footer {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #878787;
+    font-size: 14px;
+}
+
+.footer_left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100px;
+}
+
+.footer_right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+}
+
+/* <!-- 第二导航栏 --> */
+
+#nav2 {
+    width: 100%;
+    line-height: 45px;
+    background-color: #8C1B1B;
+}
+
+.nav2_box {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.nav2_box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 敦煌学文化 */
+#banner2 {
+    width: 100%;
+    height: 140px;
+    background-color: #000;
+}
+
+.banner2 {
+    width: 1200px;
+    height: 140px;
+    background: url(../images/banner-two.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.banner2 h3 {
+    padding-left: 800px;
+    line-height: 80px;
+    color: #812918;
+    font-size: 30px;
+}
+
+.banner2 p {
+    padding-left: 840px;
+    color: #B4B4B4;
+    font-size: 20px;
+}
+
+#main_box {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#main_box h3 {
+    font-size: 30px;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+#main_box h3 span {
+    color: #878787;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.main_txt {
+    padding: 20px;
+}
+
+.main_txt {
+    padding: 20px;
+}
+
+.wenhua {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.main_txt p {
+    text-indent: 2rem;
+    line-height: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* 壁画专题 */
+#illustrate {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#illustrate img {
+    width: 100%;
+}
+
+.illustrate_box {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    top: 40px;
+}
+
+.illustrate_box p {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.illustrate_box h3 {
+    font-size: 40px;
+    line-height: 100px;
+}
+
+#illustrate img {
+    width: 100%;
+    animation: zoom 5s infinite;
+    /* 5秒的动画，无限循环 */
+}
+
+.main_box2 ul {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main_box2 ul li {
+    width: 266px;
+    display: inline-block;
+    margin: 0px 15px;
+    margin-bottom: 30px;
+}
+
+.main_box2 ul li {
+    cursor: pointer;
+}
+
+
+
+.main_box2 ul li p {
+    text-align: left;
+}
+
+.main_box2 ul li p:nth-child(2) {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.main_box2 ul li p:nth-child(3) {
+    font-size: 14px;
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.main_box2 ul li p:nth-child(4) {
+    color: #FDCE4C;
+}
+
+.list_img {
+    position: relative;
+    width: 100%;
+}
+
+.list_img img {
+    width: 100%;
+    height: 180px;
+}
+
+.list_img span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #9c3925;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+/* 藏经洞文献 */
+#Documents_box {
+    width: 100%;
+}
+
+#Documents_box ul li {
+    float: left;
+    width: 48%;
+    background-color: #F1ECE6;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+    height: 220px;
+}
+
+#Documents_box ul li:nth-child(2n) {
+    margin-left: 4%;
+}
+
+.jing_img {
+    float: left;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.jing_img img {
+    height: 100%;
+}
+
+.jing_txt p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.jing_txt p:nth-child(2) {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.jing_txt p:nth-child(2) span {
+    color: #9c3925;
+}
+
+.jing_txt p:nth-child(3) {
+    color: #483C34;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+/* 共创作品 */
+#main_box2 {
+    width: 100%;
+    background-color: #F2EEE8;
+}
+
+#main_box2 h3 {
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+#main_box2 h3 span {
+    color: #878787;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.mian_box2 {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.Co_create_works_box li:nth-child(4) .works_box_img {
+    background: url(../images/create4.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Co_create_works_box li:nth-child(5) .works_box_img {
+    background: url(../images/create5.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Co_create_works_box li:nth-child(6) .works_box_img {
+    background: url(../images/create6.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 登陆页面 */
+#form_box {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/bg5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.yunduo {
+    height: 100%;
+    animation: moveCloud 60s linear infinite;
+}
+
+.logo_a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo_a img {
+    width: 100px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.form_list {
+    position: absolute;
+    width: 360px;
+    padding: 30px;
+    background-color: #000;
+    z-index: 2;
+    right: 4%;
+    top: 50%;
+    border-radius: 20px;
+    margin-top: -200px;
+}
+
+.form_list ul li {
+    margin-bottom: 20px;
+}
+
+.form_title {
+    color: #BBBBBB;
+    margin-bottom: 20px;
+}
+
+.form_title :hover {
+    color: #fff;
+}
+
+.form_title span:hover>div {
+    background-color: #FF1124;
+}
+
+
+.form_title span {
+    float: left;
+    width: 40px;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.form_title span div {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.title_style {
+    color: #fff;
+}
+
+.title_style div {
+    background-color: #FF1124 !important;
+}
+
+.list_in input {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    background-color: #323232;
+    border: 0px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.list_in input::placeholder {
+    color: 808080;
+    font-weight: bolder;
+}
+
+input:focus {
+    outline: none;
+    /* 去掉默认的聚焦边框 */
+    /* 或者您可以将边框样式设置为其他样式，如下所示 */
+    /* border: 1px solid #999; */
+}
+
+.xieyi {
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.xieyi input {
+    position: relative;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    border: 0px;
+}
+
+.caozuo button {
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    background-color: #FF1124;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    border-radius: 10px;
+}
